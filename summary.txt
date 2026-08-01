@@ -1,0 +1,16 @@
+MNIST Recognition by Neural Networks
+====================================
+
+Dataset: MNIST
+Training data: torchvision.datasets.MNIST(train=True)
+Testing data: torchvision.datasets.MNIST(train=False)
+
+Models:
+1. Shallow Multi-Layer Perceptron (MLP)
+2. Convolutional Neural Network (CNN)
+
+Testing Results:
+MLP Test Accuracy: 97.24%
+CNN Test Accuracy: 98.84%
+
+Note: The models were trained only on the training set and tested on the test set.
